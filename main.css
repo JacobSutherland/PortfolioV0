@@ -65,6 +65,7 @@ p {
 a {
     font-size: 2.4rem;
     color: white;
+    text-decoration: none;
 }
 
 
@@ -83,6 +84,7 @@ nav {
 
 nav a {
     font-size: 2rem;
+    font-weight: bold;
     padding-left: 2%;
     cursor: pointer;
 }
@@ -117,6 +119,7 @@ nav a {
     margin-left: 6%;
 }
 
+
 .body-wrapper {
     padding: 5% 5%;
 }
@@ -124,7 +127,7 @@ nav a {
 #about {
     position: relative;
     box-shadow: 1px 1px 20px -12px rgba(0,0,0,0.75);
-    margin: 11% auto;
+    margin:11% auto;
     height: 35rem;
     width: 90%;
     padding: 5%;
@@ -374,7 +377,7 @@ input:nth-of-type(3){
 }
 
 label {
-    font-size: 3rem;
+    font-size: 2.4rem;
     margin-top: 1%;
     display: block;
 }
@@ -393,11 +396,13 @@ button {
     margin-top: 2%;
     background-color: var(--btn-color);
     border-radius: 30px;
-    font-size: 2rem;
+    font-size: 1.8rem;
     font-weight: normal;
     border: none;
     cursor: pointer;
 }
+
+
 
 footer {
     display: flex;
@@ -423,4 +428,9 @@ footer .icon-container {
 footer p {
     text-align: center;
     margin-left: 9%;
+    font-weight: normal;
+}
+
+footer a {
+    font-weight: normal;
 }
