@@ -531,7 +531,12 @@ header nav {
 }
 
 #about {
-    height: 30rem;
+    height: 29rem;
+}
+
+#about .btn {
+    margin-left: 0;
+    padding-top: .3rem;
 }
 
 #about p {
@@ -542,6 +547,131 @@ header nav {
     font-size: 3rem;
 }
 
+.skill-tools-container{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    height: 50rem;
+    width: 100%;
+    margin-top: 5%;
+}
+
+.skills {
+    display: flex;
+    width: 45%;
+    flex-wrap: wrap;
+}
+
+.skills::after {
+    content: '';
+    position: absolute;
+    z-index: -100;
+    background-color: #7D83FD;
+    height: 45rem;
+    width: 45%;
+    left: 1%;
+    top: -2%;
+    
+}
+
+
+.skills-card {
+    height: 13rem;
+    font-size: 1.2rem;
+}
+
+.skills-card p {
+    font-size: 1.2rem;
+}
+
+
+.tools::after {
+    height: 46rem;
+    left: 70%;
+    bottom:2%;
+    
+}
+
+.tools-card {
+    padding: 5%;
+    height: 13rem;
+}
+
+.tools-card p {
+    font-size: 1.2rem;
+}
+
+.skill-tools-container i {
+    font-size: 3rem;
+    margin-top: 40%;
+}
+
+.ficon {
+    margin-top: 50%;
+    margin-bottom: 25%;
+}
+
+.projects {
+    margin-top: 2%;
+    display: flex;
+    flex-direction: column;
+}
+
+.project-card {
+    width: 95%;
+}
+
+label {
+    font-size: 1.8rem;
+}
+input {
+    font-size: 1.8rem;
+}
+
+textarea {
+    font-size: 1.8rem;
+}
+
+button {
+    font-size: 1.4rem;
+   
+}
+
+
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--icon-color);
+    height: 10rem;
+    color: white;
+    padding: 5%;
+}
+
+
+footer .icon-container {
+    width: 45%;
+}
+
+footer .fab {
+    font-size: 2rem;
+}
+
+
+footer p {
+    margin-top: 1%;
+    font-size: .8rem;
+}
+
+.footer-nav {
+    margin-left: 5%;
+    width: 50%;
+}
+
+footer a {
+    margin-top: 5%;
+    font-size: 1.4rem;
+}
 
 
 }
