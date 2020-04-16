@@ -450,8 +450,98 @@ footer a {
 /* Tablet styles */
 @media(max-width: 820px){
 
+/* global styles */
+
+h1 {
+    font-size: 8.5rem;
+    text-align: left;
+    margin-right: 17%;
+    
+}
+
+h2 {
+    font-size: 2.4rem;
+    margin-left: 21%;
+}
+
+h3 {
+font-size: 3.6rem;
+margin-top: 5%;
+}
+
 svg {
     display: inline-block;
 }
+
+/*specific styles */
+
+nav svg{
+    height: 2rem;
+    width: 2rem;
+}
+
+nav a {
+   margin-top: 25%;
+}
+
+header nav {
+    display: none;
+}
+
+/* styles srop down menu */
+.open {
+    position: absolute;
+    top: -1rem;
+    right: -5rem;
+    background: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5%;
+    width: 50%;
+    height: 100%;
+}
+
+.headings-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 22%;
+    margin: 0 7%;
+    height: 100%;
+    width:90%;
+    overflow: hidden;
+}
+
+.btn {
+    width: 20rem;
+    height: 4rem;
+    margin-left:7%;
+}
+
+.btn p {
+  font-size: 1.4rem;
+}
+
+.headshot {
+    top: -12rem;
+    height: 15rem;
+    width: 15rem;
+}
+
+#about {
+    height: 30rem;
+}
+
+#about p {
+    font-size: 1.4rem;
+}
+
+.icon-container .fab {
+    font-size: 3rem;
+}
+
+
 
 }
