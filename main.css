@@ -806,6 +806,14 @@ h3:nth-of-type(4){
     margin-top: 55rem;
 }
 
+.ficon {
+    margin-bottom: 40%;
+}
+
+.tools .ficon {
+    margin-top: 20%;
+}
+
 
 .skills::after {
     width: 80%;
