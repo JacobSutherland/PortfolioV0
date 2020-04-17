@@ -104,7 +104,7 @@ nav a {
 .btn-container {
     width: 95%;
     display: flex;
-    
+    margin-left:-1rem;
 }
 
 .btn {

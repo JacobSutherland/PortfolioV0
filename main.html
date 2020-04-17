@@ -203,13 +203,13 @@
 </section>
 <h3 id='contact1'>Contact Me</h3>
 <section id='contact'>
-    <form>
+    <form action='POST' data-netlify='true'>
         <label for='Name'>Full Name</label> <br>
-        <input type='text' id='name'> <br>
+        <input type='text' name='name' id='name'> <br>
         <label for='emailAdd'>Email Address</label> <br>
-        <input type='email' id='emailAdd'> <br>
+        <input type='email' name='email' id='emailAdd'> <br>
         <label for='message'>Message</label> <br>
-        <textarea  id='message' rows='10' cols='50'> </textarea> <br>
+        <textarea  id='message' name='message' rows='10' cols='50'> </textarea> <br>
         <button type='submit'>Send Message</button>
     </form>
 </section>
