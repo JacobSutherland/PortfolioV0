@@ -691,7 +691,6 @@ h3:nth-of-type(5) {
 
 /*phone styles*/
 @media(max-width: 600px){
-/*global Styles*/
 
 h1 {
     font-size: 5.5rem;
@@ -723,8 +722,9 @@ svg:nth-of-type(1){
 }
 
 .btn-container {
-    padding-left: 10%;
-    margin-left: -10%;
+    padding-right:6%;
+    margin-left: -5%;
+    width: 100%;
 }
 
 .btn-container .btn {
@@ -738,7 +738,7 @@ svg:nth-of-type(1){
 .btn-container .btn p {
     font-size: 1rem;
     margin-top:4.9%;
-    line-height: 2;
+    line-height: 1.6;
 }
 
 .headshot {
@@ -763,8 +763,13 @@ right: -2.5rem;
 
 .contact-info-container a{
    width: 100%;
+   
 }
 
+.contact-info-container a p {
+    margin-bottom: 10rem;
+    line-height: 1;
+}
 
 .icon-container {
     display: flex;
