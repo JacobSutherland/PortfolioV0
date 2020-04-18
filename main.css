@@ -1142,6 +1142,7 @@ right: -2.5rem;
 .skill-tools-container {
     display: flex;
     flex-direction: column;
+    height: 100%;
 }
 
 h3:nth-of-type(3){
@@ -1149,16 +1150,15 @@ h3:nth-of-type(3){
 }
 
 h3:nth-of-type(4) {
-    margin-top: 70rem;
+    margin-top: 10rem;
 }
 
 h3:nth-of-type(2){
-    margin-bottom: 25%;
+    margin-bottom: 10%;
 }
 
 h3:nth-of-type(4){
-    margin-bottom: 15rem;
-    margin-top: 55rem;
+    margin-bottom: 1rem;
 }
 
 .ficon {
@@ -1172,12 +1172,13 @@ h3:nth-of-type(4){
 
 .skills::after {
     width: 80%;
-    height: 38rem;
-    top: -5rem;
+    height: 44rem;
+    top: -2rem;
 }
 
 .skills {
-    margin-top:35rem;
+    /* margin-top:45rem; */
+    /* margin-top: 30%; */
     margin-left: 10%;
     margin-bottom: 15%;
     width: 80%;
@@ -1192,19 +1193,16 @@ h3:nth-of-type(4){
     margin-bottom: 55%;
 }
 
-
-
 .tools::after {
-    top: 60rem;
+    top: 58rem;
     left:5rem;
-    height: 40rem;
+    height: 45rem;
     width: 80%;
-    
   }
 
 .tools {
     width: 80%;
-    margin-top: 45%;
+    margin-top: 25%;
     margin-left: 2rem;
 }
 
@@ -1216,6 +1214,8 @@ h3:nth-of-type(4){
     position: absolute;
     content: 'Tools';
     font-size: 3.6rem;
+    margin-top: 8%;
+    margin-bottom: 8%;
     
 
 }
@@ -1234,7 +1234,7 @@ h3:nth-of-type(4){
   }
 
   .projects {
-      margin-top: -25%;
+      /* margin-top: -60rem; */
   }
 
   h3:nth-of-type(5){
