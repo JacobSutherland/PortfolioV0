@@ -1236,7 +1236,12 @@ h3:nth-of-type(4){
   }
 
   .tools-card i {
-    margin: 10%;
+    margin-top: 25%;
+    margin-bottom: 15%;
+  }
+
+  .tools-card .ficon {
+      margin-bottom: 20%;
   }
 
   .projects {
