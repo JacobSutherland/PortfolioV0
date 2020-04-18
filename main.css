@@ -1040,6 +1040,10 @@ h3:nth-of-type(5) {
 /*phone styles*/
 @media(max-width: 600px){
 
+p {
+    font-weight: bolder;
+}
+
 h1 {
     font-size: 5.5rem;
     margin-bottom:10%;
@@ -1177,8 +1181,6 @@ h3:nth-of-type(4){
 }
 
 .skills {
-    /* margin-top:45rem; */
-    /* margin-top: 30%; */
     margin-left: 10%;
     margin-bottom: 15%;
     width: 80%;
