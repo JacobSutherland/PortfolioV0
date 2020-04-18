@@ -1065,6 +1065,10 @@ svg:nth-of-type(1){
     top: 4rem;
 }
 
+a p {
+    font-weight: 900;
+}
+
 
 .open {
     left: 1rem;
