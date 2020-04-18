@@ -381,9 +381,6 @@ input {
     border: 1px solid black;
 }
 
-input:nth-of-type(3){
-    height: 20rem;
-}
 
 label {
     font-size: 2.4rem;
@@ -396,6 +393,7 @@ textarea {
     border: 1px solid black;
     font-size: 2.4rem;
     margin-bottom: 3%;
+    height: 30rem;
 }
 
 button {
